@@ -9,7 +9,7 @@ from geopy.geocoders import Nominatim
 # Configuration
 config = configparser.ConfigParser()
 config.read('config.ini')
-api_key = "582e1967fcbbfbcf160e5ad2d85c525b"
+api_key = "#Add Api Key Here"
 url_current = 'http://api.openweathermap.org/data/2.5/weather'
 url_forecast = 'http://api.openweathermap.org/data/2.5/forecast'
 iconUrl = 'http://openweathermap.org/img/wn/{}@2x.png'
